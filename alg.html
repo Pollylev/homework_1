@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Алгоритмическая задача</title>
+</head>
+<body>
+  <H1>Решение алгоритмической задачи</H1>
+  <p>1011. Определить значение функции Z = 1/(XY) при произвольных X и Y .</p>
+  <p>Значение X : <span id="a">4</span></p>
+  <p>Значение Y : <span id="b">16</span></p>
+  <p>Значение Z : <span id="result"></span></p>
+  <p id="verify">посчитать</p>
+
+</body>
+<script>
+  document.getElementById("verify").addEventListener("click", function() {
+  var x = parseInt(document.getElementById("a").innerText);
+  var y = parseInt(document.getElementById("b").innerText);
+  var z = 1 / (x * y);
+  document.getElementById("result").innerText = z;
+});
+
+</script>
+</html>

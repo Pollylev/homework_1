@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Polina" content="web-design">
+  <title>Form</title>
+  
+</head>
+<body>
+  <p>
+    <form action="https://www.bing.com/search?" method="post" target="_blank" id="form">
+      <p>First name
+        <input type="text" name="first name" id="firstname">
+     </p> 
+      <p>Second name
+        <input type="text" name="last name" id="secondname">
+     </p> 
+     <p>Email
+         <input type="text" name="Почта" id="email">
+     </p>
+     <p>Theam of presentation 
+         <textarea name="theam" id="" cols="40" rows="1" id="theam"></textarea>
+     </p>
+     <p>Style of presentation
+         <br><input type="radio" name="style of presentation" data-title="привет" >Classic
+         <br><input type="radio" name="style of presentation" >Minimalistic 
+         <br><input type="radio" name="style of presentation" >Illustrative 
+         <br><input type="radio" name="style of presentation" >Corporate
+         <br><input type="radio" name="style of presentation" >Dynamic 
+         <br><input type="radio" name="style of presentation" >Interactive 
+     </p>Convenient means of communication
+        <br><input type="checkbox" name="стиль презентации" data-title="привет" >email
+        <br><input type="checkbox" name="стиль презентации" data-title="привет" >whatsup
+        <br><input type="checkbox" name="стиль презентации" >telegram
+        <br><input type="checkbox" name="стиль презентации" >vk
+        <br><input type="checkbox" name="стиль презентации" >instagram
+     <p>
+      <p>Deadline date
+        <input type="date" name="date" value="08.11.2023" id="date">
+    </p>
+    <p>
+      <button type="reset" value="Обновить"> Обновить</button>
+      <button type="submit" formnovalidate > отправить</button>
+    </p>
+    <input type="checkbox" name="tochka"> Показать введенные данные</p>
+    <p id="resultat"></p>
+    </p>
+    </form>
+
+  </p>
+</body>
+<script> 
+  function check(form){
+    var my_fname = document.getElementById("firstname");
+    var my_sname = document.getElementById("secondname");
+    var my_theam = document.getElementById("theam");
+    var result_p = document.getElementById('resultat')
+  if (form.tochka.checked){
+      result_p.innerHTML=  my_firstname.value + my_secondname.value + my_theam.value;
+    } 
+  else{
+      result_p.innerHTML="";
+    }
+  }
+
+</script>
+</html>

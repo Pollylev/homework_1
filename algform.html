@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>form_abc</title>
+</head>
+<body>
+<p>Определить значение функции Z = 1/(XY) при произвольных X и Y .</p>
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <ul>
+        <li>формулировка задачи <input name="formulation"  value="Определить значение функции Z = 1/(XY) при произвольных X и Y ."></li>
+        <li>a: <input id="a" name="a"  type="number" value=10></li>
+        <li>b: <input id="b" name="b"  type="number" value=20></li>
+        <li>результат решения: <input name="result" value="не определен"></li>
+        <li>действие 1: <input id="verify" type="button" value="Проверить"></li>
+        <li>действие 2: <input  type="submit" value="Отправить"></li>
+    </ul>
+</form>
+<p id="result">Результаты вычислений:  </p>
+<script > 
+document.getElementById("verify").addEventListener("click", function() {
+  var x = parseInt(document.getElementById("a").value);
+  var y = parseInt(document.getElementById("b").value);
+  var z = 1 / (x * y);
+  document.getElementById("result").innerText = "Результаты вычислений: " + z;
+});
+
+
+</script>
+</body>

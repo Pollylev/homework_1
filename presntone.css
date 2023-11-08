@@ -1,0 +1,151 @@
+body{
+  margin: 0px;
+  width: 1920px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.box{
+  margin: 0px 0px;
+  position: relative;
+  display: flex;
+}
+.block{
+  position: relative;
+  margin-top: -50px;
+  margin-left: 106px;
+  margin-right: 39px;
+  width: 186px; 
+  height: 67px; 
+  background: #CCFFFC; 
+  border-radius: 30px;
+  z-index: -1;
+
+}
+.text{
+  text-decoration: none;
+  position: relative;
+  margin-top: 84px;
+  margin-left: 136px;
+  margin-right: 39px;
+  color: black;
+  font-size: 30px;
+  font-family: Raleway;
+  font-weight: 400;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.text:hover{
+  color:aqua;
+}
+.slideone{
+  position: relative;
+  margin-top: 84px;
+  margin-left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: url(./Снимок\ экрана\ 2023-11-03\ в\ 19.03.06.png)no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slidetwo{
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: url(./Снимок\ экрана\ 2023-11-03\ в\ 19.03.23.png)no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slidethree{
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: url(./Снимок\ экрана\ 2023-11-03\ в\ 19.04.28.png)no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slidefour{
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: url(./Снимок\ экрана\ 2023-11-03\ в\ 19.04.40.png)no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slidefive{
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: url(./Снимок\ экрана\ 2023-11-03\ в\ 19.04.51.png)no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slidesix{
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: url(./Снимок\ экрана\ 2023-11-03\ в\ 19.05.23.png)no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slideseven{
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: url(./Снимок\ экрана\ 2023-11-03\ в\ 19.05.36.png)no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slideeight{
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: url(./Снимок\ экрана\ 2023-11-03\ в\ 19.05.46.png)no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slidenine{
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: url(./Снимок\ экрана\ 2023-11-03\ в\ 19.06.01.png)no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slideten{
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: url(./Снимок\ экрана\ 2023-11-03\ в\ 19.06.12.png)no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slideeleven{
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: url(./Снимок\ экрана\ 2023-11-03\ в\ 19.06.28.png)no-repeat;
+  background-size: cover;
+  background-position: center;
+}
