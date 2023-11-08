@@ -1,0 +1,36 @@
+table {
+     background-color:rgb(255, 255, 255);
+}
+body{
+   
+    background-image: url(./Black\ and\ White\ Clouds\ –\ extraordinary\ wall\ mural.jpeg);
+    background-size:cover;
+    border-collapse:collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    width: 200px;
+}
+
+img {
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 0px;
+}
+
+.background-image {
+    background-image: url("./img/Wavi.jpeg");
+    background-size: 100%;
+    width: 200px;
+    height: 50px;
+}
+.block{
+    background-color:rgb(190, 255, 233);
+}
+.block1{
+    width: 600px;
+}
